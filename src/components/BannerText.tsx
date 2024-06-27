@@ -1,5 +1,5 @@
 import { Box, /*HStack*/ Heading, Text, Image, Flex } from "@chakra-ui/react";
-import hero from "../images/hero.png";
+import hero from "/src/Images/hero.png";
 
 const BannerText = () => {
   return (
