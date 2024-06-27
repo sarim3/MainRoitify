@@ -24,6 +24,7 @@ body {
   margin: 0;
   padding: 0;
   font-weight: bold;
+  display: flex;
 }
 
 .menu li {
@@ -45,6 +46,12 @@ body {
 
 .menu li a:hover {
   color: #8047d7;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 /****** HERO SECTION *******/
@@ -351,7 +358,30 @@ body {
 
 @media only screen and (max-width: 37.5rem) {
   /* 600px */
-  * {
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 60px; /* adjust based on your navbar height */
+    left: 0;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .menu li {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menu.active {
+    display: flex;
   }
 
   .hero-content h1 {
@@ -376,6 +406,7 @@ body {
   .hero-content h1 {
     margin-bottom: 0.625rem; /* Keep consistent spacing between elements */
   }
+  
   .about-content {
     flex-direction: column-reverse; /* Reverse the order of flex items */
     text-align: center;
@@ -393,6 +424,7 @@ body {
   .about-content h2 {
     margin-bottom: 0.625rem; /* Keep consistent spacing between elements */
   }
+  
   .service-grid {
     flex-direction: column; /* Change to a vertical layout */
     align-items: center; /* Center align items */

@@ -17,7 +17,8 @@
       <div class="logo">
         <img src="/src/Images/logo.png" alt="Logo" />
       </div>
-      <ul class="menu">
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul class="menu" id="menu">
         <li><a href="#about">About</a></li>
         <li><a href="#service">Service</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -151,14 +152,6 @@
           </a>
         </li>
       </ul>
-      <!--
-      <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-        <li class="menu__item"><a class="menu__link" href="#about">About</a></li>
-        <li class="menu__item"><a class="menu__link" href="#service">Services</a></li>
-        <li class="menu__item"><a class="menu__link" href="#contact">Contact</a></li>
-      </ul>
-       -->
       <p>&copy;2024 Roitify | All Rights Reserved</p>
     </footer>
     <script
@@ -169,5 +162,18 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+   <script>
+  document.addEventListener('DOMContentLoaded', () => {
+      const hamburger = document.getElementById('hamburger');
+      const menu = document.getElementById('menu');
+      
+      hamburger.addEventListener('click', () => {
+          menu.classList.toggle('active');
+      });
+  });
+</script>
+
+    </script>
+
   </body>
 </html>
