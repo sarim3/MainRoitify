@@ -8,14 +8,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.625rem 1.25rem; /* 10px 20px */
+  padding: 0.625rem 1.25rem;
   background-color: white;
   color: black;
-  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1); /* 1px */
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
-  width: 7.5rem; /* 120px */
+  width: 7.5rem;
   height: auto;
 }
 
@@ -29,8 +29,8 @@ body {
 
 .menu li {
   display: inline-block;
-  margin-left: 6.25rem; /* 100px */
-  font-size: 1.25rem; /* 20px */
+  margin-left: 6.25rem;
+  font-size: 1.25rem;
   font-weight: inter;
 }
 
@@ -57,7 +57,7 @@ body {
 /****** HERO SECTION *******/
 .hero {
   background-color: white;
-  padding: 3.125rem; /* 50px */
+  padding: 3.125rem;
 }
 
 .hero-content {
@@ -68,7 +68,7 @@ body {
 
 .left-content {
   flex: 1;
-  margin-right: 1.25rem; /* 20px */
+  margin-right: 1.25rem;
 }
 
 .right-content {
@@ -76,20 +76,20 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 5rem; /* 80px */
-  margin-bottom: 0.625rem; /* 10px */
+  font-size: 5rem;
+  margin-bottom: 0.625rem;
 }
 
 .hero-content p {
-  margin-bottom: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem;
 }
 
 .purple-button {
   background-color: #8047d7;
   color: white;
-  padding: 0.625rem 1.25rem; /* 10px 20px */
+  padding: 0.625rem 1.25rem;
   border: none;
-  border-radius: 1.25rem; /* 20px */
+  border-radius: 1.25rem;
   cursor: pointer;
 }
 
@@ -100,13 +100,13 @@ body {
 .right-content img {
   width: 100%;
   height: auto;
-  border-radius: 0.3125rem; /* 5px */
+  border-radius: 0.3125rem;
 }
 
 /***** about section *****/
 .about-section {
   background-color: white;
-  padding: 3.125rem; /* 50px */
+  padding: 3.125rem;
 }
 
 .about-content {
@@ -121,11 +121,11 @@ body {
 
 .right-content {
   flex: 1;
-  margin-left: 1.25rem; /* 20px */
+  margin-left: 1.25rem;
 }
 
 .about-content h2 {
-  margin-bottom: -1.25rem; /* -20px */
+  margin-bottom: -1.25rem;
 }
 
 .about-content img {
@@ -141,19 +141,19 @@ body {
 
 .right-content h1 {
   font-weight: bold;
-  font-size: 2.6875rem; /* 43px */
+  font-size: 2.6875rem;
 }
 
 .right-content p {
-  margin-bottom: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem;
 }
 
 .purple-button {
   background-color: #8047d7;
   color: white;
-  padding: 0.625rem 1.25rem; /* 10px 20px */
+  padding: 0.625rem 1.25rem;
   border: none;
-  border-radius: 1.25rem; /* 20px */
+  border-radius: 1.25rem;
   cursor: pointer;
 }
 
@@ -162,48 +162,52 @@ body {
 }
 /***** service section *****/
 .service-section {
-  padding: 3.125rem 0; /* 50px 0 */
+  padding: 3.125rem 0;
   background-color: white;
 }
 
 .container {
-  max-width: 75rem; /* 1200px */
+  max-width: 75rem;
   margin: 0 auto;
-  padding: 0 1.25rem; /* 0 20px */
+  padding: 0 1.25rem;
 }
 
 .section-title {
   color: #8047d7;
   text-align: center;
-  font-size: 1.375rem; /* 22px */
+  font-size: 1.375rem;
   font-weight: semi-bold;
 }
 .section-title1 {
   color: black;
   text-align: center;
-  font-size: 3.4375rem; /* 55px */
+  font-size: 3.4375rem;
 }
 .section-title:first-child {
-  margin-bottom: -2.5rem; /* -40px */
+  margin-bottom: -2.5rem;
 }
 
 .service-grid {
   display: flex;
   justify-content: space-between;
-  margin-top: 1.875rem; /* 30px */
+  margin-top: 1.875rem;
 }
 
 .service-item {
   flex: 0 1 30%;
   text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .service-item img {
-  width: 100%;
-  max-width: 12.5rem; /* 200px */
+  width: 38%;
+
+  max-width: 12.5rem;
   height: auto;
-  border-radius: 0.625rem; /* 10px */
-  margin-bottom: 0.9375rem; /* 15px */
+  border-radius: 0.625rem;
+  margin-bottom: 0.9375rem;
+  color: red;
 }
 
 .service-item h3 {
@@ -212,7 +216,7 @@ body {
 
 .service-item p {
   color: #555;
-  font-size: 0.9375rem; /* 15px */
+  font-size: 0.9375rem;
   font-weight: regular;
 }
 
@@ -248,7 +252,7 @@ body {
 }
 
 .contact-left-content h1 {
-  font-size: 3.875rem; /* 62px */
+  font-size: 3.875rem;
   font-weight: bold;
 }
 
@@ -267,11 +271,12 @@ body {
 
 .big-contact-form-box input {
   width: 93%;
-  height: 6.25rem; /* 100px */
+
   margin-bottom: 2rem;
   border: 0.125rem solid #ccc;
-  border-radius: 0.625rem; /* 10px */
+  border-radius: 0.625rem;
   width: 100%;
+  padding-bottom: 6.25rem;
 }
 
 .big-contact-form-box input:focus {
@@ -279,15 +284,15 @@ body {
   border-color: #8047d7;
 }
 .contact-form-box h3 {
-  margin-bottom: 0.625rem; /* 10px */
-  font-size: 1rem; /* 16px */
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
 }
 
 .contact-form-box input {
   width: 15rem;
-  padding: 0.625rem; /* 10px */
-  border: 0.125rem solid #ccc; /* 2px */
-  border-radius: 0.625rem; /* 10px */
+  padding: 0.625rem;
+  border: 0.125rem solid #ccc;
+  border-radius: 0.625rem;
   justify-content: space-between;
 }
 
@@ -300,7 +305,7 @@ body {
 .footer {
   position: relative;
   background: #8047d7;
-  min-height: 6.25rem; /* 100px */
+  /*min-height: 6.25rem; */ /* 100px */
   padding: 1.25rem 3.125rem; /* 20px 50px */
   display: flex;
   justify-content: center;
@@ -337,7 +342,7 @@ body {
 .menu__link {
   font-size: 1.2rem;
   color: #fff;
-  margin: 0 0.625rem; /* 10px */
+  margin: 0 0.625rem;
   display: inline-block;
   transition: 0.5s;
   text-decoration: none;
@@ -351,7 +356,7 @@ body {
 
 .footer p {
   color: #fff;
-  margin: 0.9375rem 0 0.625rem 0; /* 15px 0 10px 0 */
+  margin: 0.9375rem 0 0.625rem 0;
   font-size: 1rem;
   font-weight: 300;
 }
@@ -364,7 +369,7 @@ body {
     align-items: center;
     width: 100%;
     position: absolute;
-    top: 60px; /* adjust based on your navbar height */
+    top: 60px;
     left: 0;
     background-color: white;
     z-index: 1;
@@ -386,7 +391,7 @@ body {
 
   .hero-content h1 {
     font-size: 2rem;
-    margin-bottom: 0.625rem; /* 10px */
+    margin-bottom: 0.625rem;
   }
 
   .hero-content {
@@ -396,43 +401,43 @@ body {
 
   .left-content,
   .right-content {
-    margin: 0; /* Remove margin for better center alignment */
+    margin: 0;
   }
 
   .right-content {
-    margin-top: 1.25rem; /* Add some spacing between the text and the image */
+    margin-top: 1.25rem;
   }
 
   .hero-content h1 {
-    margin-bottom: 0.625rem; /* Keep consistent spacing between elements */
+    margin-bottom: 0.625rem;
   }
-  
+
   .about-content {
-    flex-direction: column-reverse; /* Reverse the order of flex items */
+    flex-direction: column-reverse;
     text-align: center;
   }
 
   .left-content,
   .right-content {
-    margin: 0; /* Remove margin for better center alignment */
+    margin: 0;
   }
 
   .right-content {
-    margin-top: 1.25rem; /* Add some spacing between the text and the image */
+    margin-top: 1.25rem;
   }
 
   .about-content h2 {
-    margin-bottom: 0.625rem; /* Keep consistent spacing between elements */
+    margin-bottom: 0.625rem;
   }
-  
+
   .service-grid {
-    flex-direction: column; /* Change to a vertical layout */
-    align-items: center; /* Center align items */
+    flex-direction: column;
+    align-items: center;
   }
 
   .service-item {
-    width: 100%; /* Set width to full for each service item */
-    margin-bottom: 2.5rem; /* Add spacing between service items */
+    width: 100%;
+    margin-bottom: 2.5rem;
   }
 
   .contact-section {
@@ -440,40 +445,40 @@ body {
   }
 
   .contact-container {
-    flex-direction: column; /* Change to a vertical layout */
-    align-items: center; /* Center align items */
-    text-align: center; /* Center align text */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .contact-form-box,
   .big-contact-form-box {
-    width: 80%; /* Set form boxes to 80% width */
-    margin-bottom: 1rem; /* Add spacing between form boxes */
+    width: 80%;
+    margin-bottom: 1rem;
   }
 
   .contact-form-box h3 {
-    margin-bottom: 0.5rem; /* Add spacing between label and input */
+    margin-bottom: 0.5rem;
   }
 
   .big-contact-form-box input {
-    width: 100%; /* Set input fields to full width */
+    width: 100%;
   }
 
   .contact-left-content img {
-    width: 80%; /* Set image width to 80% */
-    margin-top: 2rem; /* Add spacing between image and inputs */
+    width: 80%;
+    margin-top: 2rem;
   }
 
   .footer {
-    padding: 1.25rem; /* Adjust padding */
-    justify-content: flex-start; /* Align items to the start of the flex container */
-    text-align: left; /* Align text to the left */
+    padding: 1.25rem;
+    justify-content: flex-start;
+    text-align: left;
   }
 
   .social-icon__link,
   .menu__link {
-    margin: 0.3125rem; /* Adjust margin */
-    flex-direction: column; /* Change to a vertical layout */
+    margin: 0.3125rem;
+    flex-direction: column;
     align-items: center;
   }
 }
